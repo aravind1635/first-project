@@ -1,7 +1,7 @@
 ## first-project
-testing
+
 QDM is responsible in deploying QuizUp service and the basic operations of QDM are below
-1. Any service instance launched by ASG having a `docker-manager` init service. This service will pull the QDM image from the dockistry and launches docker-manager container
+1. Any service instance launched by ASG having a `docker-manager` init service. This service will pull the QDM image from the dockistry and launches `docker-manager` container
 2. docker-manager container will initiate the below containers and it gets images tags from zookeeper
     a) datadog 
     b) dockergc
