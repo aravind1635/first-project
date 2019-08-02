@@ -16,7 +16,7 @@ Recent changes added to QDM are
 
 How to test and Modify the QDM next time?
 - Launch a test server in staging with sample metadata to deploy services
-- Login to the _docker-manager_ container and make changes in QDM code. Test the code by stopping the service, other containers and see the deployment
+- Login to the **docker-manager** container and make changes in QDM code. Test the code by stopping the service, other containers and see the deployment
 - Once the code is stabilized without disturbing the deployment in the test server, replicate the same changes in this repository
 - Use Makefile to push the docker image of latest code with a different tag
 - _docker-manager_ service init script code needs to modified to take the new tag in the base AMI of the services instance
